@@ -7,16 +7,32 @@ html {
 }
 
 body {
-  @apply m-0 bg-slate-950 text-slate-200 antialiased;
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  @apply m-0 bg-saarthi-bg text-saarthi-cream/95 antialiased;
+  font-family: Inter, Poppins, system-ui, sans-serif;
 }
 
 @layer components {
   .section-container {
-    @apply mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20 lg:px-8;
+    @apply mx-auto max-w-6xl px-4 py-20 sm:px-6 md:py-28 lg:px-10;
+  }
+
+  .slide-section {
+    @apply border-b border-white/[0.06];
+  }
+
+  .heading-display {
+    @apply font-serif font-semibold tracking-tight text-saarthi-cream;
   }
 
   .card {
-    @apply rounded-2xl border border-white/10 bg-white/5 p-6 shadow-lg shadow-black/10 backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-indigo-300/40 hover:bg-white/10;
+    @apply rounded-2xl border border-saarthi-gold/15 bg-white/[0.04] p-6 shadow-xl shadow-black/20 backdrop-blur-md transition duration-500;
+  }
+
+  .card:hover {
+    @apply border-saarthi-gold/35 shadow-glow-sm -translate-y-0.5;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full border border-saarthi-gold/40 bg-gradient-to-r from-saarthi-gold/20 to-saarthi-goldDeep/15 px-8 py-3.5 text-sm font-semibold text-saarthi-cream shadow-glow-sm transition hover:border-saarthi-gold/60 hover:shadow-glow;
   }
 }
