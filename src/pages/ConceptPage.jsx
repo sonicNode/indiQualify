@@ -52,10 +52,10 @@ const impact = [
 ]
 
 const team = [
-  { name: 'Rishika', role: 'Backend + AWS', icon: Cloud },
-  { name: 'Ankit', role: 'Frontend', icon: Layers },
-  { name: 'Rishi', role: 'AI Logic', icon: Brain },
-  { name: 'Shivam', role: 'Integration', icon: PhoneCall },
+  { name: 'Rishika - 1MS24AD052', role: 'Backend + AWS', icon: Cloud },
+  { name: 'Ankit - 1MS24AD009', role: 'Frontend', icon: Layers },
+  { name: 'Rishi - 1MS24AD051', role: 'AI Logic', icon: Brain },
+  { name: 'Shivam - 1MS24MD040', role: 'Integration', icon: PhoneCall },
 ]
 
 function Tag({ children }) {
